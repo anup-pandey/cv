@@ -1,0 +1,127 @@
+body {
+  font-family: 'Nerko One';
+}
+
+hr{
+  border: 0.5em solid rgba(78, 187, 78, 0.9);
+  border-radius: 5px;
+  border-bottom: 0;
+}
+
+.body-text {
+  text-align: justify;
+  padding: 0;
+}
+
+.body-section {
+  padding: 4rem;
+  height: 100%;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.title {
+  color: coral;
+  padding-top: 14rem;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.header-text:hover {
+  color: darkslategray;
+  font-size: 5rem;
+}
+
+.header-text {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 4.5rem;
+}
+
+.header-subtitle {
+  font-size: 1.5rem;
+}
+
+.img-size {
+  border-radius: 100%;
+  max-width: 390px;
+  max-height: 390px;
+}
+
+.img-size:hover {
+  transform: skewY(-3deg);
+  box-shadow: 5px 10px #888888;
+}
+
+.bird-img1 {
+  width: 180px;
+  position: absolute;
+  left: 60%;
+  bottom: 30%;
+  /* animation: bird-move 8s infinite; */
+}
+
+.bird-img2 {
+  width: 180px;
+  position: absolute;
+  top: 80%;
+  right: 60%;
+}
+
+.top-section {
+  height: 120vh;
+  width: 100%;
+  background-image: url('../images/sunset.jpg');
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: content-box;
+}
+
+.pro:hover {
+  color: darkslategray;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.container {
+  padding: auto 0 auto 0;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+.nav-item {
+  font-size: 1.25rem;
+}
+
+#contact-me {
+  padding: 4rem;
+  background-color: #456268;
+}
+
+/* column */
+.col-md-6 {
+  padding-left: 0 8px 0 0;
+}
+
+/* animation */
+
+@keyframes bird-move {
+  from {
+    right: 90%;
+  }
+  to {
+    left: 0%;
+  }
+}
